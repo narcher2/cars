@@ -73,9 +73,10 @@ function create() {
 function createGuards () {
 
             var guard = guards.create(32, 32, 'guy');
+            guard.game.add.sprite(32, 32, 'guy')
             guard.anchor.setTo(0.5, 0.5);
-            guard.animations.add('left', [ 0, 1, 2, 3 ], 10, true);
-            guard.play('left');
+            guard.animations.add('patrol', [ 0, 1, 2, 3 ], 10, true);
+            guard.play('patrol');
             guard.body.moves = false;
     
 
