@@ -74,8 +74,8 @@ function createGuards () {
 
             var guard = guards.create(32, 64, 'guy');
             guard.anchor.setTo(0.5, 0.5);
-            guard.animations.add('left', [ 0, 1, 2, 3 ], 20, true);
-            guard.play('left');
+            //guard.animations.add('left', [ 0, 1, 2, 3 ], 20, true);
+            //guard.play('left');
             guard.body.moves = false;
     
 
