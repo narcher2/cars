@@ -169,13 +169,14 @@ function update() {
 }
 
 function enemyHitsPlayer (player, guard) {
-        player.kill();
+        //player.kill();
 
         stateText.text=" GAME OVER \n Click to restart";
         stateText.visible = true;
 
         //the "click to restart" handler
-        game.input.onTap.addOnce(restart,this);
+        //game.input.onTap.addOnce(restart,this);
+        restart();
 
 }
 
