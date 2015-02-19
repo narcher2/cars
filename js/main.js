@@ -162,10 +162,13 @@ function update() {
         player.body.velocity.y = -250;
         jumpTimer = game.time.now + 750;
     }
+    
+    game.physics.arcade.overlap(guards, player, enemyHitsPlayer, null, this);
+
 
 }
 
-function enemyHitsPlayer (player,guard) {
+function enemyHitsPlayer (player, guard) {
         player.kill();
 
         stateText.text=" GAME OVER \n Click to restart";
