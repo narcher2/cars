@@ -57,7 +57,7 @@ function create() {
     player.body.collideWorldBounds = true;
     player.body.setSize(20, 32, 5, 16);
     
-    king = game.add.sprite(96, 896, 'king2');
+    king = game.add.sprite(112, 894, 'king2');
     game.physics.enable(king, Phaser.Physics.ARCADE);
 
     king.body.bounce.y = 0.2;
@@ -191,6 +191,18 @@ function enemyHitsPlayer (player, guard) {
         //the "click to restart" handler
         //game.input.onTap.addOnce(restart,this);
         restart();
+
+}
+
+function enemyHitsPlayer (player, king) {
+        king.kill();
+
+        stateText.text=" GAME OVER \n Click to restart";
+        stateText.visible = true;
+
+        //the "click to restart" handler
+        //game.input.onTap.addOnce(restart,this);
+        //restart();
 
 }
 
