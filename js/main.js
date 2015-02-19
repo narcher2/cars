@@ -163,12 +163,12 @@ function update() {
         jumpTimer = game.time.now + 750;
     }
     
-    game.physics.arcade.overlap(guard, player, enemyHitsPlayer, null, this);
+    game.physics.arcade.overlap(guards, player, enemyHitsPlayer, null, this);
 
 
 }
 
-function enemyHitsPlayer (player, guard) {
+function enemyHitsPlayer (player, guards) {
         player.kill();
 
         stateText.text=" GAME OVER \n Click to restart";
