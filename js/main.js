@@ -72,7 +72,7 @@ function create() {
 
 function createGuards () {
 
-            var guard = guards.create(32, 32, 'guy');
+            var guard = guards.create(32, 16, 'guy');
             guard.anchor.setTo(0.5, 0.5);
             guard.animations.add('patrol', [ 0, 1, 2], 10, true);
             guard.play('patrol');
