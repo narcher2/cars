@@ -60,7 +60,7 @@ function create() {
     
     guards = game.add.group();
     guards.enableBody = true;
-    //guards.physicsBodyType = Phaser.Physics.ARCADE;
+    guards.physicsBodyType = Phaser.Physics.ARCADE;
 
     createGuards();
 
@@ -82,7 +82,7 @@ function createGuards () {
             guard.body.bounce.y = 0.2;
             guard.body.collideWorldBounds = true;
             game.physics.enable(guard, Phaser.Physics.ARCADE);
-            //guard.body.setSize(20, 32, 5, 16);
+            guard.body.setSize(20, 32, 5, 16);
     
 
     guards.x = 100;
@@ -106,7 +106,7 @@ function update() {
 
     game.physics.arcade.collide(player, layer);
     //game.physics.arcade.collide(player, guard);
-    game.physics.arcade.collide(guard, layer);
+    //game.physics.arcade.collide(guard, layer);
 
     player.body.velocity.x = 0;
 
