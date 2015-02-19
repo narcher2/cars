@@ -4,6 +4,7 @@ function preload() {
 
     game.load.tilemap('level1', 'assets/games/starstruck/level1.json', null, Phaser.Tilemap.TILED_JSON);
     game.load.image('tiles-1', 'assets/games/starstruck/tiles-1.png');
+    game.load.image('king2', 'assets/games/starstruck/king1.png');
     game.load.spritesheet('dude', 'assets/games/starstruck/dude_strip9.png', 32, 48);
     game.load.spritesheet('guy', 'assets/games/starstruck/guard_strip6.png', 32, 48);
     game.load.image('starSmall', 'assets/games/starstruck/star.png');
@@ -23,6 +24,7 @@ var cursors;
 var jumpButton;
 var bg;
 var stateText;
+var king;
 
 function create() {
 
@@ -54,6 +56,14 @@ function create() {
     player.body.bounce.y = 0.2;
     player.body.collideWorldBounds = true;
     player.body.setSize(20, 32, 5, 16);
+    
+    king = game.add.sprite(64, 512, 'king2');
+    king.physics.enable(player, Phaser.Physics.ARCADE);
+
+    king.body.bounce.y = 0.2;
+    king.body.collideWorldBounds = true;
+    king.body.setSize(20, 32, 5, 16);
+    king.body.moves = false;
 
     player.animations.add('left', [0, 1, 2, 3], 10, true);
     player.animations.add('turn', [4], 20, true);
