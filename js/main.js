@@ -5,7 +5,7 @@ function preload() {
     game.load.tilemap('level1', 'assets/games/starstruck/level1.json', null, Phaser.Tilemap.TILED_JSON);
     game.load.image('tiles-1', 'assets/games/starstruck/tiles-1.png');
     game.load.spritesheet('dude', 'assets/games/starstruck/dude_strip9.png', 32, 48);
-    game.load.spritesheet('guy', 'assets/games/starstruck/guard_strip6.png', 32, 32);
+    game.load.spritesheet('guy', 'assets/games/starstruck/guard_strip6.png', 32, 48);
     game.load.image('starSmall', 'assets/games/starstruck/star.png');
     game.load.image('starBig', 'assets/games/starstruck/star2.png');
     game.load.image('background', 'assets/games/starstruck/background2.png');
@@ -73,7 +73,7 @@ function create() {
 
 function createGuards () {
 
-            var guard = guards.create(64, 112, 'guy');
+            var guard = guards.create(64, 128, 'guy');
             guard.anchor.setTo(0.5, 0.5);
             guard.animations.add('patrolRight', [ 0, 1, 2], 10, true);
             guard.play('patrolRight');
