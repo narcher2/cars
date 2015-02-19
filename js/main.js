@@ -81,6 +81,7 @@ function createGuards () {
             guard.body.bounce.y = 0.2;
             guard.body.collideWorldBounds = true;
             guard.body.velocity.y = -250;
+            guard.body.setSize(20, 32, 5, 16);
     
 
     guards.x = 100;
