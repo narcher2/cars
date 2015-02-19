@@ -75,8 +75,9 @@ function createGuards () {
 
             var guard = guards.create(64, 128, 'guy');
             guard.anchor.setTo(0.5, 0.5);
-            guard.animations.add('patrol', [ 0, 1, 2], 10, true);
-            guard.play('patrol');
+            guard.animations.add('patrolRight', [ 0, 1, 2], 10, true);
+            guard.play('patrolRight');
+            guard.animations.add('patrolLeft', [3, 4, 5], 10, true);
             guard.body.moves = false;
             guard.body.bounce.y = 0.2;
             guard.body.collideWorldBounds = true;
@@ -89,6 +90,15 @@ function createGuards () {
     //  All this does is basically start the invaders moving. Notice we're moving the Group they belong to, rather than the invaders directly.
     var tween = game.add.tween(guards).to( { x: 200 }, 2000, Phaser.Easing.Linear.None, true, 0, 1000, true);
 
+    tween.onLoop.play(turn(), this);
+}
+
+function turn(){
+    if (currentAnim() == 'patrolLeft'){
+     this.play('patrolRight');   
+    }else{
+     this.play('patrolLeft');   
+    }
 }
 
 function update() {
@@ -140,11 +150,6 @@ function update() {
     {
         player.body.velocity.y = -250;
         jumpTimer = game.time.now + 750;
-    }
-    
-    if (guard.body.onFloor() == false){
-        
-        guard.body.velocity.y = -250;
     }
 
 }
