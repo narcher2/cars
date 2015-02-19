@@ -81,7 +81,7 @@ function createGuards () {
             //guard.body.moves = false;
             guard.body.bounce.y = 0.2;
             guard.body.collideWorldBounds = true;
-            //guard.body.setSize(20, 32, 5, 16);
+            guard.body.setSize(20, 32, 5, 16);
     
 
     guards.x = 100;
@@ -104,6 +104,8 @@ function createGuards () {
 function update() {
 
     game.physics.arcade.collide(player, layer);
+    game.physics.arcade.collide(player, guard);
+    game.physics.arcade.collide(guard, layer);
 
     player.body.velocity.x = 0;
 
