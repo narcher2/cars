@@ -81,8 +81,8 @@ function createGuards () {
             //guard.body.moves = false;
             guard.body.bounce.y = 0.2;
             guard.body.collideWorldBounds = true;
-            game.physics.enable(guard, Phaser.Physics.ARCADE);
             guard.body.setSize(20, 32, 5, 16);
+            game.physics.enable(guard, Phaser.Physics.ARCADE);
     
 
     guards.x = 100;
