@@ -1,276 +1,126 @@
-
-var game = new Phaser.Game(800, 600, Phaser.AUTO, 'phaser-example', { preload: preload, create: create, update: update });
+var game = new Phaser.Game(800, 600, Phaser.CANVAS, 'phaser-example', { preload: preload, create: create, update: update, render: render });
 
 function preload() {
 
-    game.load.atlas('breakout', 'assets/games/breakout/breakout.png', 'assets/games/breakout/breakout.json');
-    game.load.image('wood', 'assets/misc/wood.png');
-    game.load.image('trampolineh', 'assets/trampolineh.png');
-    game.load.image('cat',  'assets/cat' + (Math.floor((Math.random() * 4) + 1)) +'.png');
-    game.load.image('box',  'assets/box.png');
-    game.load.audio('love', 'assets/catdupe.wav');
-    game.load.audio('death', 'assets/catdie.wav');
-    game.load.audio('pink', 'assets/ppanth2.mid');
-
+    game.load.tilemap('level1', 'assets/games/starstruck/level1.json', null, Phaser.Tilemap.TILED_JSON);
+    game.load.image('tiles-1', 'assets/games/starstruck/tiles-1.png');
+    game.load.spritesheet('dude', 'assets/games/starstruck/dude_strip9.png', 32, 48);
+    game.load.spritesheet('droid', 'assets/games/starstruck/droid.png', 32, 32);
+    game.load.image('starSmall', 'assets/games/starstruck/star.png');
+    game.load.image('starBig', 'assets/games/starstruck/star2.png');
+    game.load.image('background', 'assets/games/starstruck/background2.png');
 
 }
-var ball;
-var paddle;
-var bricks;
-var box;
-var counter = 0;
 
-var ballOnPaddle = true;
-
-var lives = 3;
-var score = 0;
-
-var scoreText;
-var livesText;
-var introText;
-
-var s;
+var map;
+var tileset;
+var layer;
+var player;
+var facing = 'left';
+var jumpTimer = 0;
+var cursors;
+var jumpButton;
+var bg;
 
 function create() {
-    
-    love = game.add.audio('love');
-    death = game.add.audio('death');
-    pink = game.add.audio('pink');
-    pink.play();
 
     game.physics.startSystem(Phaser.Physics.ARCADE);
 
-    //  We check bounds collisions against all walls other than the bottom one
-    game.physics.arcade.checkCollision.down = false;
+    game.stage.backgroundColor = '#000000';
 
-    s = game.add.tileSprite(0, 0, 800, 600, 'wood');
+    bg = game.add.tileSprite(0, 0, 800, 600, 'background');
+    bg.fixedToCamera = true;
 
-    bricks = game.add.group();
-    bricks.enableBody = true;
-    bricks.physicsBodyType = Phaser.Physics.ARCADE;
-    
-    paddles = game.add.group();
-    paddles.enableBody = true;
-    paddles.physicsBodyType = Phaser.Physics.ARCADE;
-    
-    balls = game.add.group();
-    balls.enableBody = true
-    balls.physicsBodyType = Phaser.Physics.ARCADE;
-    
+    map = game.add.tilemap('level1');
 
-    var brick;
+    map.addTilesetImage('tiles-1');
 
-//    for (var y = 0; y < 4; y++)
-//    {
-//        for (var x = 0; x < 15; x++)
-//        {
-//            brick = bricks.create(120 + (x * 36), 100 + (y * 52), 'breakout', 'brick_' + (y+1) + '_1.png');
-//            brick.body.bounce.set(1);
-//            brick.body.immovable = true;
-//        }
-//    }
-    
-    paddle = paddles.create(game.world.centerX-396, 584, 'trampolineh', 'trampolineh.png');
-    paddle.body.collideWorldBounds = true;
-    paddle.body.bounce.set(1);
-    paddle.body.immovable = true;
-    paddle.anchor.setTo(0.5, 0.5);
+    map.setCollisionByExclusion([ 13, 14, 15, 16, 46, 47, 48, 49, 50, 51 ]);
 
-    paddle = paddles.create(game.world.centerX, 16, 'trampolineh', 'trampolineh.png');
-    paddle.anchor.setTo(0.5, 0.5);
+    layer = map.createLayer('Tile Layer 1');
 
-    //paddle = game.add.sprite(game.world.centerX, 584, 'trampolineh', 'trampolineh.png');
-    //paddle = game.add.sprite(game.world.centerX, 16, 'trampolineh', 'trampolineh.png');
-    //paddle.anchor.setTo(0.5, 0.5);
+    //  Un-comment this on to see the collision tiles
+    // layer.debug = true;
 
-    //game.physics.enable(paddle, Phaser.Physics.ARCADE);
+    layer.resizeWorld();
 
-    paddle.body.collideWorldBounds = true;
-    paddle.body.bounce.set(1);
-    paddle.body.immovable = true;
+    game.physics.arcade.gravity.y = 250;
 
-    box = game.add.sprite(game.world.centerX, 300, 'box', 'box.png');
-    box.anchor.set(0.5);
+    player = game.add.sprite(32, 32, 'dude');
+    game.physics.enable(player, Phaser.Physics.ARCADE);
 
-    ball = balls.create(game.world.centerX, 300, 'cat', 'cat' + (Math.floor((Math.random() * 4) + 1)) +'.png');
-    ball.anchor.set(0.5, 0.5);
-    ball.checkWorldBounds = true;
+    player.body.bounce.y = 0.2;
+    player.body.collideWorldBounds = true;
+    player.body.setSize(20, 32, 5, 16);
 
-    game.physics.enable(ball, Phaser.Physics.ARCADE);
+    player.animations.add('left', [0, 1, 2, 3], 10, true);
+    player.animations.add('turn', [4], 20, true);
+    player.animations.add('right', [5, 6, 7, 8], 10, true);
 
-    ball.body.collideWorldBounds = true;
-    ball.body.bounce.set(1);
+    game.camera.follow(player);
 
-    ball.animations.add('spin', [ 'cat' + (Math.floor((Math.random() * 4) + 1)) +'.png'], 50, true, false);
-
-    ball.events.onOutOfBounds.add(ballLost, this);
-
-    scoreText = game.add.text(32, 550, 'score: 0', { font: "20px Arial", fill: "#ffffff", align: "left" });
-    //livesText = game.add.text(680, 550, 'lives: 3', { font: "20px Arial", fill: "#ffffff", align: "left" });
-    introText = game.add.text(game.world.centerX, 400, '- click to start -', { font: "40px Arial", fill: "#ffffff", align: "center" });
-    introText.anchor.setTo(0.5, 0.5);
-
-    game.input.onDown.add(releaseBall, this);
+    cursors = game.input.keyboard.createCursorKeys();
+    jumpButton = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
 
 }
 
-function update () {
+function update() {
 
-    //  Fun, but a little sea-sick inducing :) Uncomment if you like!
-    // s.tilePosition.x += (game.input.speed.x / 2);
-    counter++;
-    
-    if (counter > 100){
-        score++;
-        scoreText.text = 'score: ' + score
-        counter = 0;
-            ball = balls.create(game.world.centerX, 300, 'cat', 'cat' + (Math.floor((Math.random() * 4) + 1)) +'.png');
-    ball.anchor.set(0.5, 0.5);
-    ball.checkWorldBounds = true;
+    game.physics.arcade.collide(player, layer);
 
-    game.physics.enable(ball, Phaser.Physics.ARCADE);
+    player.body.velocity.x = 0;
 
-    ball.body.collideWorldBounds = true;
-    ball.body.bounce.set(1);
-    
-    ballOnPaddle = false;
-    ball.body.velocity.y = -300;
-    ball.body.velocity.x = -75;
-    ball.animations.play('spin');
-    introText.visible = false;
-
-    ball.animations.add('spin', [ 'cat' + (Math.floor((Math.random() * 4) + 1)) +'.png'], 50, true, false);
-
-    ball.events.onOutOfBounds.add(ballLost, this);
-    
-    game.physics.arcade.collide(paddle, paddles, ballHitPaddle);
-    }
-
-    paddles.x = game.input.x;
-
-    if (paddle.x < 24)
+    if (cursors.left.isDown)
     {
-        paddle.x = 24;
-    }
-    else if (paddle.x > game.width - 24)
-    {
-        paddle.x = game.width - 24;
-    }
+        player.body.velocity.x = -150;
 
-    if (ballOnPaddle)
+        if (facing != 'left')
+        {
+            player.animations.play('left');
+            facing = 'left';
+        }
+    }
+    else if (cursors.right.isDown)
     {
-        ball.body.x = paddle.x;
+        player.body.velocity.x = 150;
+
+        if (facing != 'right')
+        {
+            player.animations.play('right');
+            facing = 'right';
+        }
     }
     else
     {
-        game.physics.arcade.collide(ball, paddles, ballHitPaddle, null, this);
-        game.physics.arcade.collide(ball, bricks, ballHitPaddle, null, this);
-        game.physics.arcade.collide(balls, paddles, ballHitPaddle, null, this);
-        game.physics.arcade.collide(ball, balls, ballHitPaddle, null, this);
-        game.physics.arcade.collide(balls, paddle, ballHitPaddle, null, this);
+        if (facing != 'idle')
+        {
+            player.animations.stop();
+
+            if (facing == 'left')
+            {
+                player.frame = 0;
+            }
+            else
+            {
+                player.frame = 5;
+            }
+
+            facing = 'idle';
+        }
     }
-
-}
-
-function releaseBall () {
-
-    if (ballOnPaddle)
-    {
-        ballOnPaddle = false;
-        ball.body.velocity.y = -300;
-        ball.body.velocity.x = -75;
-        ball.animations.play('spin');
-        introText.visible = false;
-    }
-
-}
-
-function ballLost () {
-    death.play();
-    score--;
-    scoreText.text = 'score: ' + score
-    //livesText.text = 'lives: ' + lives;
-
-    if (lives === 0)
-    {
-        gameOver();
-    }
-    else
-    {
-        //ballOnPaddle = true;
-
-        //ball.reset(paddle.body.x + 16, paddle.y - 16);
-        //ball.reset(box.x, box.y);
-        //ball.body.velocity.y = -300;
-        //ball.body.velocity.x = -75;
-        ball.animations.stop();
-    }
-
-}
-
-function gameOver () {
-
-    ball.body.velocity.setTo(0, 0);
     
-    introText.text = 'Game Over!';
-    introText.visible = true;
-
-}
-
-function ballHitBrick (_ball, _brick) {
-
-    _brick.kill();
-
-    score += 10;
-
-    scoreText.text = 'score: ' + score;
-
-    //  Are they any bricks left?
-    if (bricks.countLiving() == 0)
+    if (jumpButton.isDown && player.body.onFloor() && game.time.now > jumpTimer)
     {
-        //  New level starts
-        score += 1000;
-        scoreText.text = 'score: ' + score;
-        introText.text = '- Next Level -';
-
-        //  Let's move the ball back to the paddle
-        ballOnPaddle = true;
-        ball.body.velocity.set(0);
-        ball.x = paddle.x + 16;
-        ball.y = paddle.y - 16;
-        ball.animations.stop();
-
-        //  And bring the bricks back from the dead :)
-        bricks.callAll('revive');
+        player.body.velocity.y = -250;
+        jumpTimer = game.time.now + 750;
     }
 
 }
 
-function ballHitBall (_ball, _ball){
-    love.play();
-}
+function render () {
 
-function ballHitPaddle (_ball, _paddle) {
-
-    var diff = 0;
-
-    if (_ball.x < _paddle.x)
-    {
-        //  Ball is on the left-hand side of the paddle
-        diff = _paddle.x - _ball.x;
-        _ball.body.velocity.x = (-1 * diff);
-    }
-    else if (_ball.x > _paddle.x)
-    {
-        //  Ball is on the right-hand side of the paddle
-        diff = _ball.x -_paddle.x;
-        _ball.body.velocity.x = (1 * diff);
-    }
-    else
-    {
-        //  Ball is perfectly in the middle
-        //  Add a little random X to stop it bouncing straight up!
-        _ball.body.velocity.x = 2 + Math.random() * 8;
-    }
+    // game.debug.text(game.time.physicsElapsed, 32, 32);
+    // game.debug.body(player);
+    // game.debug.bodyInfo(player, 16, 24);
 
 }
