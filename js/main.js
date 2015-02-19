@@ -109,7 +109,8 @@ function update() {
 
     player.body.velocity.x = 0;
     
-    game.physics.arcade.collide(guard, layer);
+    //game.physics.arcade.collide(guard, layer);
+    
     guard.body.velocity.x = 0;
 
     if (cursors.left.isDown)
