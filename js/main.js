@@ -80,7 +80,7 @@ function createGuards () {
             guard.play('patrolRight');
             //guard.body.moves = false;
             guard.body.bounce.y = 0.2;
-            //guard.body.collideWorldBounds = true;
+            guard.body.collideWorldBounds = true;
             //guard.body.setSize(20, 32, 5, 16);
     
 
@@ -94,7 +94,7 @@ function createGuards () {
 }
 
 /*function turnAround(){
-    if ('patrolLeft'.isplaying()){
+    if (this.animations.isplaying('patrolLeft')){
      this.play('patrolRight');   
     }else{
      this.play('patrolLeft');   
