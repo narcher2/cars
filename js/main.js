@@ -168,7 +168,7 @@ function update() {
 
 }
 
-function enemyHitsPlayer (player, guards) {
+function enemyHitsPlayer (player, guard) {
         player.kill();
 
         stateText.text=" GAME OVER \n Click to restart";
