@@ -23,6 +23,13 @@ var jumpButton;
 var bg;
 
 function create() {
+    
+    //  The baddies!
+    guards = game.add.group();
+    guards.enableBody = true;
+    guards.physicsBodyType = Phaser.Physics.ARCADE;
+
+    createGuards();
 
     game.physics.startSystem(Phaser.Physics.ARCADE);
 
@@ -63,6 +70,37 @@ function create() {
     jumpButton = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
 
 }
+
+function createGuards () {
+
+    /*for (var y = 0; y < 4; y++)
+    {
+        for (var x = 0; x < 10; x++)
+        {
+            var guard = guards.create(x * 48, y * 50, 'invader');
+            guard.anchor.setTo(0.5, 0.5);
+            guard.animations.add('fly', [ 0, 1, 2, 3 ], 20, true);
+            guard.play('fly');
+            guard.body.moves = false;
+        }
+    }*/
+            var guard = guards.create(48, 50, 'droid');
+            guard.anchor.setTo(0.5, 0.5);
+            guard.animations.add('fly', [ 0, 1, 2, 3 ], 20, true);
+            guard.play('fly');
+            guard.body.moves = false;
+    
+
+    guards.x = 100;
+    guards.y = 0;
+
+    //  All this does is basically start the invaders moving. Notice we're moving the Group they belong to, rather than the invaders directly.
+    var tween = game.add.tween(guards).to( { x: 200 }, 2000, Phaser.Easing.Linear.None, true, 0, 1000, true);
+
+    //  When the tween loops it calls descend
+    tween.onLoop.add(descend, this);
+}
+
 
 function update() {
 
