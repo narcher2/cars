@@ -28,7 +28,7 @@ function create() {
     guards.enableBody = true;
     guards.physicsBodyType = Phaser.Physics.ARCADE;
 
-    //createGuards();
+    createGuards();
 
     game.physics.startSystem(Phaser.Physics.ARCADE);
 
