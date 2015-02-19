@@ -14,6 +14,7 @@ function preload() {
 
 var map;
 var tileset;
+var guards;
 var layer;
 var player;
 var facing = 'left';
@@ -23,11 +24,6 @@ var jumpButton;
 var bg;
 
 function create() {
-    
-    guards = game.add.group();
-    guards.enableBody = true;
-    guards.physicsBodyType = Phaser.Physics.ARCADE;
-
 
     game.physics.startSystem(Phaser.Physics.ARCADE);
 
@@ -61,6 +57,10 @@ function create() {
     player.animations.add('left', [0, 1, 2, 3], 10, true);
     player.animations.add('turn', [4], 20, true);
     player.animations.add('right', [5, 6, 7, 8], 10, true);
+    
+    guards = game.add.group();
+    guards.enableBody = true;
+    guards.physicsBodyType = Phaser.Physics.ARCADE;
 
     createGuards();
 
