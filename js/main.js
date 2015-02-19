@@ -60,7 +60,7 @@ function create() {
     
     guards = game.add.group();
     guards.enableBody = true;
-    guards.physicsBodyType = Phaser.Physics.ARCADE;
+    //guards.physicsBodyType = Phaser.Physics.ARCADE;
 
     createGuards();
 
