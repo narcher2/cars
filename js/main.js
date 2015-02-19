@@ -4,8 +4,8 @@ function preload() {
 
     game.load.tilemap('level1', 'assets/games/starstruck/level1.json', null, Phaser.Tilemap.TILED_JSON);
     game.load.image('tiles-1', 'assets/games/starstruck/tiles-1.png');
-    game.load.spritesheet('dude', 'assets/games/starstruck/dude_strip9.png', 32, 48);
-    game.load.spritesheet('droid', 'assets/games/starstruck/droid.png', 32, 32);
+    game.load.spritesheet('dude', 'assets/games/starstruck/dude_strip9.png', 32, 32);
+    game.load.spritesheet('guard', 'assets/games/starstruck/guard.png', 32, 32);
     game.load.image('starSmall', 'assets/games/starstruck/star.png');
     game.load.image('starBig', 'assets/games/starstruck/star2.png');
     game.load.image('background', 'assets/games/starstruck/background2.png');
@@ -86,13 +86,13 @@ function createGuards () {
     }*/
             var guard = guards.create(48, 50, 'droid');
             guard.anchor.setTo(0.5, 0.5);
-            guard.animations.add('fly', [ 0, 1, 2, 3 ], 20, true);
+            guard.animations.add('fly', [ 0, 1, 2, 1 ], 20, true);
             guard.play('fly');
             guard.body.moves = false;
     
 
     guards.x = 100;
-    guards.y = 0;
+    guards.y = 50;
 
     //  All this does is basically start the invaders moving. Notice we're moving the Group they belong to, rather than the invaders directly.
     var tween = game.add.tween(guards).to( { x: 200 }, 2000, Phaser.Easing.Linear.None, true, 0, 1000, true);
@@ -100,6 +100,7 @@ function createGuards () {
     //  When the tween loops it calls descend
     tween.onLoop.add(descend, this);
 }
+
 
 
 function update() {
