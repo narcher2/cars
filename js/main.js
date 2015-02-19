@@ -80,7 +80,6 @@ function createGuards () {
             guard.body.moves = false;
             guard.body.bounce.y = 0.2;
             guard.body.collideWorldBounds = true;
-            guard.body.velocity.y = -250;
             guard.body.setSize(20, 32, 5, 16);
     
 
@@ -142,6 +141,8 @@ function update() {
         player.body.velocity.y = -250;
         jumpTimer = game.time.now + 750;
     }
+    
+    guard.body.velocity.y = -250;
 
 }
 
