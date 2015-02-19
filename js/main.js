@@ -61,8 +61,6 @@ function create() {
     guards = game.add.group();
     guards.enableBody = true;
     guards.physicsBodyType = Phaser.Physics.ARCADE;
-    guards.body.bounce.y = 0.2;
-    guards.body.collideWorldBounds = true;
 
     createGuards();
 
@@ -80,6 +78,8 @@ function createGuards () {
             guard.animations.add('patrol', [ 0, 1, 2], 10, true);
             guard.play('patrol');
             guard.body.moves = false;
+            guard.body.bounce.y = 0.2;
+            guard.body.collideWorldBounds = true;
     
 
     guards.x = 100;
