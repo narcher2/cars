@@ -76,9 +76,9 @@ function createGuards () {
             var guard = guards.create(64, 144, 'guy');
             guard.anchor.setTo(0.5, 0.5);
             guard.animations.add('patrolRight', [ 0, 1, 2], 10, true);
-            guard.play('patrolRight');
             guard.animations.add('patrolLeft', [3, 4, 5], 10, true);
-            guard.body.moves = false;
+            guard.play('patrolRight');
+            //guard.body.moves = false;
             guard.body.bounce.y = 0.2;
             //guard.body.collideWorldBounds = true;
             //guard.body.setSize(20, 32, 5, 16);
