@@ -90,16 +90,16 @@ function createGuards () {
     //  All this does is basically start the invaders moving. Notice we're moving the Group they belong to, rather than the invaders directly.
     var tween = game.add.tween(guards).to( { x: 200 }, 2000, Phaser.Easing.Linear.None, true, 0, 1000, true);
 
-    tween.onLoop.play(turnAround(), this);
+    //tween.onLoop.play(turnAround(), this);
 }
 
-function turnAround(){
+/*function turnAround(){
     if ('patrolLeft'.isplaying()){
      this.play('patrolRight');   
     }else{
      this.play('patrolLeft');   
     }
-}
+}*/
 
 function update() {
 
