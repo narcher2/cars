@@ -22,6 +22,7 @@ var jumpTimer = 0;
 var cursors;
 var jumpButton;
 var bg;
+var stateText;
 
 function create() {
 
@@ -63,6 +64,10 @@ function create() {
     guards.physicsBodyType = Phaser.Physics.ARCADE;
 
     createGuards();
+    
+    stateText = game.add.text(game.world.centerX,game.world.centerY,' ', { font: '84px Arial', fill: '#fff' });
+    stateText.anchor.setTo(0.5, 0.5);
+    stateText.visible = false;
 
     game.camera.follow(player);
 
@@ -157,6 +162,17 @@ function update() {
         player.body.velocity.y = -250;
         jumpTimer = game.time.now + 750;
     }
+
+}
+
+function enemyHitsPlayer (player,guard) {
+        player.kill();
+
+        stateText.text=" GAME OVER \n Click to restart";
+        stateText.visible = true;
+
+        //the "click to restart" handler
+        game.input.onTap.addOnce(restart,this);
 
 }
 
