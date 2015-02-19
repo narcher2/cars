@@ -57,8 +57,8 @@ function create() {
     player.body.collideWorldBounds = true;
     player.body.setSize(20, 32, 5, 16);
     
-    king = game.add.sprite(64, 512, 'king2');
-    king.physics.enable(player, Phaser.Physics.ARCADE);
+    king = game.add.sprite(64, 1024, 'king2');
+    game.physics.enable(king, Phaser.Physics.ARCADE);
 
     king.body.bounce.y = 0.2;
     king.body.collideWorldBounds = true;
