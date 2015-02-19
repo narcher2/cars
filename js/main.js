@@ -142,7 +142,10 @@ function update() {
         jumpTimer = game.time.now + 750;
     }
     
-    guard.body.velocity.y = -250;
+    if (guard.body.onFloor() == false){
+        
+        guard.body.velocity.y = -250;
+    }
 
 }
 
