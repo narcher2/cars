@@ -1,0 +1,80 @@
+0000000000000000000000000000000000000000 b9c29805ba9ab6540adadb0db34edf5a5e538081 narcher2 <narcher2@gmu.edu> 1423720412 -0500	commit (initial): Origin
+b9c29805ba9ab6540adadb0db34edf5a5e538081 a8c603c23a65e1d0f5f945ead17b1f054d963ea0 narcher2 <narcher2@gmu.edu> 1423720910 -0500	rebase finished: refs/heads/master onto a8c603c23a65e1d0f5f945ead17b1f054d963ea0
+a8c603c23a65e1d0f5f945ead17b1f054d963ea0 17b0f06f712db37e1689738f0fe5d0b998c5c190 narcher2 <narcher2@gmu.edu> 1423721320 -0500	rebase finished: refs/heads/master onto 17b0f06f712db37e1689738f0fe5d0b998c5c190
+17b0f06f712db37e1689738f0fe5d0b998c5c190 b0a6d94437faea16d1a118428565345cfc284025 narcher2 <narcher2@gmu.edu> 1423721607 -0500	rebase finished: refs/heads/master onto b0a6d94437faea16d1a118428565345cfc284025
+b0a6d94437faea16d1a118428565345cfc284025 21629ed6127c7c736021e6c5ccbf0d051a0e8bbd narcher2 <narcher2@gmu.edu> 1423721741 -0500	rebase finished: refs/heads/master onto 21629ed6127c7c736021e6c5ccbf0d051a0e8bbd
+21629ed6127c7c736021e6c5ccbf0d051a0e8bbd c9ce4a42cd02e844926ce44456db1b01d5798754 narcher2 <narcher2@gmu.edu> 1423722053 -0500	rebase finished: refs/heads/master onto c9ce4a42cd02e844926ce44456db1b01d5798754
+c9ce4a42cd02e844926ce44456db1b01d5798754 8fd6c848be9802a832c6929570ca08fb3852b3b6 narcher2 <narcher2@gmu.edu> 1423722355 -0500	commit: Change
+8fd6c848be9802a832c6929570ca08fb3852b3b6 878bccdcdae04f64bf2f94b8157ddfb7ca584820 narcher2 <narcher2@gmu.edu> 1423722636 -0500	rebase finished: refs/heads/master onto 878bccdcdae04f64bf2f94b8157ddfb7ca584820
+878bccdcdae04f64bf2f94b8157ddfb7ca584820 04d94d4e30eb949271371d987315a5614a46f9f7 narcher2 <narcher2@gmu.edu> 1423722698 -0500	rebase finished: refs/heads/master onto 04d94d4e30eb949271371d987315a5614a46f9f7
+04d94d4e30eb949271371d987315a5614a46f9f7 ccb8308cb285bf5af48b58f6bca41b70de7d5403 narcher2 <narcher2@gmu.edu> 1423722755 -0500	rebase finished: refs/heads/master onto ccb8308cb285bf5af48b58f6bca41b70de7d5403
+ccb8308cb285bf5af48b58f6bca41b70de7d5403 f990b993efece8b76969176f60d26cc13acd5035 narcher2 <narcher2@gmu.edu> 1423722969 -0500	rebase finished: refs/heads/master onto f990b993efece8b76969176f60d26cc13acd5035
+f990b993efece8b76969176f60d26cc13acd5035 e570f002a1c683ce083b07ef027200236b331b16 narcher2 <narcher2@gmu.edu> 1423723040 -0500	rebase finished: refs/heads/master onto e570f002a1c683ce083b07ef027200236b331b16
+e570f002a1c683ce083b07ef027200236b331b16 d15ec1c079dc5b728f4a26ea74229a12a5834358 narcher2 <narcher2@gmu.edu> 1423723327 -0500	rebase finished: refs/heads/master onto d15ec1c079dc5b728f4a26ea74229a12a5834358
+d15ec1c079dc5b728f4a26ea74229a12a5834358 5918e08a3d3fd579fc8120a84eebfe9eb910329e narcher2 <narcher2@gmu.edu> 1423723452 -0500	rebase finished: refs/heads/master onto 5918e08a3d3fd579fc8120a84eebfe9eb910329e
+5918e08a3d3fd579fc8120a84eebfe9eb910329e 89de4f92651ed67bc61ee26c3953f13d4dce4cde narcher2 <narcher2@gmu.edu> 1423724446 -0500	rebase finished: refs/heads/master onto 89de4f92651ed67bc61ee26c3953f13d4dce4cde
+89de4f92651ed67bc61ee26c3953f13d4dce4cde c32ad5c431d366083e1fe7833626d9c0d9d05e39 narcher2 <narcher2@gmu.edu> 1423724508 -0500	rebase finished: refs/heads/master onto c32ad5c431d366083e1fe7833626d9c0d9d05e39
+c32ad5c431d366083e1fe7833626d9c0d9d05e39 7334241bba6796f1b51995c7ecac412ab51e6b4f narcher2 <narcher2@gmu.edu> 1423725115 -0500	pull --progress --prune origin master: Fast-forward
+7334241bba6796f1b51995c7ecac412ab51e6b4f 021f232d43477b5fa5f83408fa9d91396da8d1f1 narcher2 <narcher2@gmu.edu> 1423725268 -0500	pull --progress --prune origin master: Fast-forward
+021f232d43477b5fa5f83408fa9d91396da8d1f1 f73b7161ccf307be00ec6cedcb0f4f9ff06a472f narcher2 <narcher2@gmu.edu> 1423725620 -0500	pull --progress --prune origin master: Fast-forward
+f73b7161ccf307be00ec6cedcb0f4f9ff06a472f 4cd9c6e38a338eb706eaf02147bb3bdec07b32fe narcher2 <narcher2@gmu.edu> 1423725721 -0500	pull --progress --prune origin master: Fast-forward
+4cd9c6e38a338eb706eaf02147bb3bdec07b32fe 281259b123a5bdc10f232c368126bc199aa2fc0a narcher2 <narcher2@gmu.edu> 1423725884 -0500	pull --progress --prune origin master: Fast-forward
+281259b123a5bdc10f232c368126bc199aa2fc0a b8b3d54ece35efa038518d98884c80685f83419a narcher2 <narcher2@gmu.edu> 1423726364 -0500	pull --progress --prune origin master: Fast-forward
+b8b3d54ece35efa038518d98884c80685f83419a f3bbb04fc5a4c07f09c2ec7eabbbe18638c7549c narcher2 <narcher2@gmu.edu> 1423726489 -0500	pull --progress --prune origin master: Fast-forward
+f3bbb04fc5a4c07f09c2ec7eabbbe18638c7549c c51e2d483fb200a86774fee20ab13c168a64cb1f narcher2 <narcher2@gmu.edu> 1423726674 -0500	pull --progress --prune origin master: Fast-forward
+c51e2d483fb200a86774fee20ab13c168a64cb1f e64eea4a99b85db1919f9bd34076300a0f017755 narcher2 <narcher2@gmu.edu> 1423726788 -0500	pull --progress --prune origin master: Fast-forward
+e64eea4a99b85db1919f9bd34076300a0f017755 d895dad3c2ac00f8cc2afaa0464c6d76d532a4e9 narcher2 <narcher2@gmu.edu> 1423726891 -0500	pull --progress --prune origin master: Fast-forward
+d895dad3c2ac00f8cc2afaa0464c6d76d532a4e9 37f832461546be2196c3476a2706053d44ceebca narcher2 <narcher2@gmu.edu> 1423727049 -0500	pull --progress --prune origin master: Fast-forward
+37f832461546be2196c3476a2706053d44ceebca 534453811dd37f2624b2393123907790110ac08b narcher2 <narcher2@gmu.edu> 1423727128 -0500	pull --progress --prune origin master: Fast-forward
+534453811dd37f2624b2393123907790110ac08b 522e0943bf87db5cd84cafc5586c358c4cca02af narcher2 <narcher2@gmu.edu> 1423727236 -0500	pull --progress --prune origin master: Fast-forward
+522e0943bf87db5cd84cafc5586c358c4cca02af 333d6e4adc24d906fb98585666501157a222d89c narcher2 <narcher2@gmu.edu> 1423727341 -0500	pull --progress --prune origin master: Fast-forward
+333d6e4adc24d906fb98585666501157a222d89c 260e73b3c30db6f8d33afa3417d9202670ca3837 narcher2 <narcher2@gmu.edu> 1423727428 -0500	pull --progress --prune origin master: Fast-forward
+260e73b3c30db6f8d33afa3417d9202670ca3837 8bdf4a147eb2c22baae83fdef7a891ba41104e1b narcher2 <narcher2@gmu.edu> 1423727481 -0500	pull --progress --prune origin master: Fast-forward
+8bdf4a147eb2c22baae83fdef7a891ba41104e1b 378a9f350d77b5751c48f0a409d8db4180bf1ab0 narcher2 <narcher2@gmu.edu> 1423727562 -0500	pull --progress --prune origin master: Fast-forward
+378a9f350d77b5751c48f0a409d8db4180bf1ab0 251f7a5b95412b15b232d2081dcf48a9b2b6bbfc narcher2 <narcher2@gmu.edu> 1423727687 -0500	pull --progress --prune origin master: Fast-forward
+251f7a5b95412b15b232d2081dcf48a9b2b6bbfc 2b8233788e5122009a239d283e7c77afc11c76c2 narcher2 <narcher2@gmu.edu> 1423727770 -0500	pull --progress --prune origin master: Fast-forward
+2b8233788e5122009a239d283e7c77afc11c76c2 b6631fcd06739f49f632fff6e3cfef7a8840b40c narcher2 <narcher2@gmu.edu> 1423727969 -0500	pull --progress --prune origin master: Fast-forward
+b6631fcd06739f49f632fff6e3cfef7a8840b40c 5462673080cc51f56da5f271af666c8a25001c95 narcher2 <narcher2@gmu.edu> 1423728354 -0500	pull --progress --prune origin master: Fast-forward
+5462673080cc51f56da5f271af666c8a25001c95 19e1689e992e45254999d909b1561ac66315ca5a narcher2 <narcher2@gmu.edu> 1423728440 -0500	pull --progress --prune origin master: Fast-forward
+19e1689e992e45254999d909b1561ac66315ca5a 1cf4e898152e9e7582611d6954b111c16ab911ed narcher2 <narcher2@gmu.edu> 1423728613 -0500	pull --progress --prune origin master: Fast-forward
+1cf4e898152e9e7582611d6954b111c16ab911ed f3ae274bd85605650b7a98bdc1492626b98488a7 narcher2 <narcher2@gmu.edu> 1423728706 -0500	pull --progress --prune origin master: Fast-forward
+f3ae274bd85605650b7a98bdc1492626b98488a7 5b586e653eb77973883c1351d25f2ea932841faa narcher2 <narcher2@gmu.edu> 1423728813 -0500	pull --progress --prune origin master: Fast-forward
+5b586e653eb77973883c1351d25f2ea932841faa 80e07dcbd8e60d67bc08a8b4b85292f469d37e47 narcher2 <narcher2@gmu.edu> 1423728957 -0500	pull --progress --prune origin master: Fast-forward
+80e07dcbd8e60d67bc08a8b4b85292f469d37e47 0a876a16c52525e83af3faf7c5edb61ba11191ea narcher2 <narcher2@gmu.edu> 1423729486 -0500	pull --progress --prune origin master: Fast-forward
+0a876a16c52525e83af3faf7c5edb61ba11191ea 9174e3d03c1f40b7e4b2438ead41317167e5cfb1 narcher2 <narcher2@gmu.edu> 1423729599 -0500	revert: Revert "Update main.js"
+9174e3d03c1f40b7e4b2438ead41317167e5cfb1 bc2c3a8750baccdc6ec06729cd9b38adc039c7ad narcher2 <narcher2@gmu.edu> 1423729702 -0500	pull --progress --prune origin master: Fast-forward
+bc2c3a8750baccdc6ec06729cd9b38adc039c7ad 2f1969349ba1b1ad4460e4c4d03baeabdd8ab7ce narcher2 <narcher2@gmu.edu> 1423729787 -0500	pull --progress --prune origin master: Fast-forward
+2f1969349ba1b1ad4460e4c4d03baeabdd8ab7ce 406dd905da029b4cad1b2625d116305980d93daa narcher2 <narcher2@gmu.edu> 1423729861 -0500	pull --progress --prune origin master: Fast-forward
+406dd905da029b4cad1b2625d116305980d93daa c09769ce1f0562f46d106ced619a6cc7d38e7232 narcher2 <narcher2@gmu.edu> 1423730084 -0500	pull --progress --prune origin master: Fast-forward
+c09769ce1f0562f46d106ced619a6cc7d38e7232 a585ec17047f4b336d6697c441962042b703ddc3 narcher2 <narcher2@gmu.edu> 1423730138 -0500	pull --progress --prune origin master: Fast-forward
+a585ec17047f4b336d6697c441962042b703ddc3 d4471f050be3af9191b0d58f2e1594d88270e6fc narcher2 <narcher2@gmu.edu> 1423730225 -0500	pull --progress --prune origin master: Fast-forward
+d4471f050be3af9191b0d58f2e1594d88270e6fc e4dc66ec8022bf9cb3cf8ad70ae8364ff0a2c84d narcher2 <narcher2@gmu.edu> 1423730385 -0500	pull --progress --prune origin master: Fast-forward
+e4dc66ec8022bf9cb3cf8ad70ae8364ff0a2c84d 3f6227bfbf9e6e1fe34d3f8491ac7e51600ab4e8 narcher2 <narcher2@gmu.edu> 1423730449 -0500	pull --progress --prune origin master: Fast-forward
+3f6227bfbf9e6e1fe34d3f8491ac7e51600ab4e8 70e5959395a276abfc0d0fa5a811c978fe2d6589 narcher2 <narcher2@gmu.edu> 1423730553 -0500	pull --progress --prune origin master: Fast-forward
+70e5959395a276abfc0d0fa5a811c978fe2d6589 5fb3dbbe9f0b8dfef44271a8ea8cec7c1955a954 narcher2 <narcher2@gmu.edu> 1423730610 -0500	pull --progress --prune origin master: Fast-forward
+5fb3dbbe9f0b8dfef44271a8ea8cec7c1955a954 de00c17572279a28bf20d8819738c12e923c19bd narcher2 <narcher2@gmu.edu> 1423730702 -0500	pull --progress --prune origin master: Fast-forward
+de00c17572279a28bf20d8819738c12e923c19bd cd6baf0bd2eb9302baf6066d22047abe34a98e1c narcher2 <narcher2@gmu.edu> 1423730925 -0500	pull --progress --prune origin master: Fast-forward
+cd6baf0bd2eb9302baf6066d22047abe34a98e1c 868b005c38ebe7d6da9439cf55ce9844a017b7b9 narcher2 <narcher2@gmu.edu> 1423731102 -0500	pull --progress --prune origin master: Fast-forward
+868b005c38ebe7d6da9439cf55ce9844a017b7b9 45f4c65922d9f0a5ef86c859ca03161900e5901e narcher2 <narcher2@gmu.edu> 1423731435 -0500	pull --progress --prune origin master: Fast-forward
+45f4c65922d9f0a5ef86c859ca03161900e5901e 174007e5e65d5f1f466e421eacd877f2e67e6f8d narcher2 <narcher2@gmu.edu> 1423731588 -0500	pull --progress --prune origin master: Fast-forward
+174007e5e65d5f1f466e421eacd877f2e67e6f8d 666fcefff16f267ec2888401c7fc067e3c13ee39 narcher2 <narcher2@gmu.edu> 1423731664 -0500	pull --progress --prune origin master: Fast-forward
+666fcefff16f267ec2888401c7fc067e3c13ee39 548eb1a72f1637f7195cfdb155f01e0f0136df21 narcher2 <narcher2@gmu.edu> 1423731732 -0500	pull --progress --prune origin master: Fast-forward
+548eb1a72f1637f7195cfdb155f01e0f0136df21 10a0952eaf29c06a996dd34264233680fece00e5 narcher2 <narcher2@gmu.edu> 1423731934 -0500	pull --progress --prune origin master: Fast-forward
+10a0952eaf29c06a996dd34264233680fece00e5 938abd808c9b69878a0680f67eeb341e84ead4c8 narcher2 <narcher2@gmu.edu> 1423732066 -0500	pull --progress --prune origin master: Fast-forward
+938abd808c9b69878a0680f67eeb341e84ead4c8 b35b40f3f25d4afceded343652236334e468551b narcher2 <narcher2@gmu.edu> 1423732135 -0500	pull --progress --prune origin master: Fast-forward
+b35b40f3f25d4afceded343652236334e468551b 74908005bc66a26c83a503f57f35b190a4014d91 narcher2 <narcher2@gmu.edu> 1423732340 -0500	pull --progress --prune origin master: Fast-forward
+74908005bc66a26c83a503f57f35b190a4014d91 9d0d7c0b721da9b7091c1c6283f88c469754d52c narcher2 <narcher2@gmu.edu> 1423733082 -0500	pull --progress --prune origin master: Fast-forward
+9d0d7c0b721da9b7091c1c6283f88c469754d52c 2b419e249c168665795124ff9766e13111278251 narcher2 <narcher2@gmu.edu> 1423733249 -0500	pull --progress --prune origin master: Fast-forward
+2b419e249c168665795124ff9766e13111278251 1d52a01a5b3dfeb0a35a692df959b865369d29be narcher2 <narcher2@gmu.edu> 1423733382 -0500	pull --progress --prune origin master: Fast-forward
+1d52a01a5b3dfeb0a35a692df959b865369d29be cc6a492f34b1c3b2e523ffdf33b25912c0d7e876 narcher2 <narcher2@gmu.edu> 1423733637 -0500	pull --progress --prune origin master: Fast-forward
+cc6a492f34b1c3b2e523ffdf33b25912c0d7e876 bb1a5697d906ecd09104beec2ebd1d71fef9beef narcher2 <narcher2@gmu.edu> 1423733822 -0500	pull --progress --prune origin master: Fast-forward
+bb1a5697d906ecd09104beec2ebd1d71fef9beef cb5858bed5f54160db8dcc6f9502e66dc01969c9 narcher2 <narcher2@gmu.edu> 1423766506 -0500	pull --progress --prune origin master: Fast-forward
+cb5858bed5f54160db8dcc6f9502e66dc01969c9 2aa5a4b55098cd9cdfee33b03e4ab35aab93baea narcher2 <narcher2@gmu.edu> 1423767078 -0500	pull --progress --prune origin master: Fast-forward
+2aa5a4b55098cd9cdfee33b03e4ab35aab93baea e3b795ab53fcd4726b4167876396f79a36201f88 narcher2 <narcher2@gmu.edu> 1423767391 -0500	pull --progress --prune origin master: Fast-forward
+e3b795ab53fcd4726b4167876396f79a36201f88 1e08dd77e78b3cbb5b3617b801b9d460e11c5ffb narcher2 <narcher2@gmu.edu> 1423767904 -0500	pull --progress --prune origin master: Fast-forward
+1e08dd77e78b3cbb5b3617b801b9d460e11c5ffb 4e2d3a361165bc432d893aeb678fe9407ebc1dc3 narcher2 <narcher2@gmu.edu> 1423767975 -0500	pull --progress --prune origin master: Fast-forward
+4e2d3a361165bc432d893aeb678fe9407ebc1dc3 3d7035ec66a24e89f4b7560ad21e7020c6d5d11e narcher2 <narcher2@gmu.edu> 1423768367 -0500	commit: Revert "Update main.js"
+3d7035ec66a24e89f4b7560ad21e7020c6d5d11e a19f7f3dca324107a6e729805a0cc4fb810fac3e narcher2 <narcher2@gmu.edu> 1423768991 -0500	reset: moving to origin/master
+a19f7f3dca324107a6e729805a0cc4fb810fac3e 3394a13aac2e570e984258c6cbbcf5e4357c4dc5 narcher2 <narcher2@gmu.edu> 1423769167 -0500	rebase finished: refs/heads/master onto 3394a13aac2e570e984258c6cbbcf5e4357c4dc5
+3394a13aac2e570e984258c6cbbcf5e4357c4dc5 42150a56efe490828e476be5f1ccc9071b7b397c narcher2 <narcher2@gmu.edu> 1423769261 -0500	rebase finished: refs/heads/master onto 42150a56efe490828e476be5f1ccc9071b7b397c
+42150a56efe490828e476be5f1ccc9071b7b397c fee540516cb9d20512f78ccd940c06a3b11e4619 narcher2 <narcher2@gmu.edu> 1423769379 -0500	rebase finished: refs/heads/master onto fee540516cb9d20512f78ccd940c06a3b11e4619

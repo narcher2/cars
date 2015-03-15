@@ -1,0 +1,82 @@
+0000000000000000000000000000000000000000 b9c29805ba9ab6540adadb0db34edf5a5e538081 narcher2 <narcher2@gmu.edu> 1423720419 -0500	update by push
+b9c29805ba9ab6540adadb0db34edf5a5e538081 095010452a2062ff8c24cb5c9eea162cfd86419c unknown <Nathan@Nathan.(none)> 1423720524 -0500	fetch origin --prune: fast-forward
+095010452a2062ff8c24cb5c9eea162cfd86419c a8c603c23a65e1d0f5f945ead17b1f054d963ea0 unknown <Nathan@Nathan.(none)> 1423720907 -0500	fetch origin --prune: fast-forward
+a8c603c23a65e1d0f5f945ead17b1f054d963ea0 17b0f06f712db37e1689738f0fe5d0b998c5c190 unknown <Nathan@Nathan.(none)> 1423721316 -0500	fetch origin --prune: fast-forward
+17b0f06f712db37e1689738f0fe5d0b998c5c190 b0a6d94437faea16d1a118428565345cfc284025 unknown <Nathan@Nathan.(none)> 1423721606 -0500	pull --progress --rebase --prune origin master: fast-forward
+b0a6d94437faea16d1a118428565345cfc284025 21629ed6127c7c736021e6c5ccbf0d051a0e8bbd unknown <Nathan@Nathan.(none)> 1423721740 -0500	pull --progress --rebase --prune origin master: fast-forward
+21629ed6127c7c736021e6c5ccbf0d051a0e8bbd c9ce4a42cd02e844926ce44456db1b01d5798754 unknown <Nathan@Nathan.(none)> 1423722053 -0500	pull --progress --rebase --prune origin master: fast-forward
+c9ce4a42cd02e844926ce44456db1b01d5798754 8fd6c848be9802a832c6929570ca08fb3852b3b6 narcher2 <narcher2@gmu.edu> 1423722441 -0500	update by push
+8fd6c848be9802a832c6929570ca08fb3852b3b6 878bccdcdae04f64bf2f94b8157ddfb7ca584820 unknown <Nathan@Nathan.(none)> 1423722633 -0500	fetch origin --prune: fast-forward
+878bccdcdae04f64bf2f94b8157ddfb7ca584820 04d94d4e30eb949271371d987315a5614a46f9f7 unknown <Nathan@Nathan.(none)> 1423722697 -0500	pull --progress --rebase --prune origin master: fast-forward
+04d94d4e30eb949271371d987315a5614a46f9f7 ccb8308cb285bf5af48b58f6bca41b70de7d5403 unknown <Nathan@Nathan.(none)> 1423722754 -0500	pull --progress --rebase --prune origin master: fast-forward
+ccb8308cb285bf5af48b58f6bca41b70de7d5403 f990b993efece8b76969176f60d26cc13acd5035 unknown <Nathan@Nathan.(none)> 1423722968 -0500	pull --progress --rebase --prune origin master: fast-forward
+f990b993efece8b76969176f60d26cc13acd5035 e570f002a1c683ce083b07ef027200236b331b16 unknown <Nathan@Nathan.(none)> 1423723035 -0500	fetch origin --prune: fast-forward
+e570f002a1c683ce083b07ef027200236b331b16 d15ec1c079dc5b728f4a26ea74229a12a5834358 unknown <Nathan@Nathan.(none)> 1423723326 -0500	pull --progress --rebase --prune origin master: fast-forward
+d15ec1c079dc5b728f4a26ea74229a12a5834358 5918e08a3d3fd579fc8120a84eebfe9eb910329e unknown <Nathan@Nathan.(none)> 1423723447 -0500	fetch origin --prune: fast-forward
+5918e08a3d3fd579fc8120a84eebfe9eb910329e 89de4f92651ed67bc61ee26c3953f13d4dce4cde unknown <Nathan@Nathan.(none)> 1423724445 -0500	pull --progress --rebase --prune origin master: fast-forward
+89de4f92651ed67bc61ee26c3953f13d4dce4cde c32ad5c431d366083e1fe7833626d9c0d9d05e39 unknown <Nathan@Nathan.(none)> 1423724507 -0500	pull --progress --rebase --prune origin master: fast-forward
+c32ad5c431d366083e1fe7833626d9c0d9d05e39 7334241bba6796f1b51995c7ecac412ab51e6b4f unknown <Nathan@Nathan.(none)> 1423725108 -0500	fetch origin --prune: fast-forward
+7334241bba6796f1b51995c7ecac412ab51e6b4f 021f232d43477b5fa5f83408fa9d91396da8d1f1 unknown <Nathan@Nathan.(none)> 1423725267 -0500	pull --progress --prune origin master: fast-forward
+021f232d43477b5fa5f83408fa9d91396da8d1f1 f73b7161ccf307be00ec6cedcb0f4f9ff06a472f unknown <Nathan@Nathan.(none)> 1423725619 -0500	fetch origin --prune: fast-forward
+f73b7161ccf307be00ec6cedcb0f4f9ff06a472f 4cd9c6e38a338eb706eaf02147bb3bdec07b32fe unknown <Nathan@Nathan.(none)> 1423725721 -0500	pull --progress --prune origin master: fast-forward
+4cd9c6e38a338eb706eaf02147bb3bdec07b32fe 281259b123a5bdc10f232c368126bc199aa2fc0a unknown <Nathan@Nathan.(none)> 1423725877 -0500	fetch origin --prune: fast-forward
+281259b123a5bdc10f232c368126bc199aa2fc0a b8b3d54ece35efa038518d98884c80685f83419a unknown <Nathan@Nathan.(none)> 1423726353 -0500	fetch origin --prune: fast-forward
+b8b3d54ece35efa038518d98884c80685f83419a f3bbb04fc5a4c07f09c2ec7eabbbe18638c7549c unknown <Nathan@Nathan.(none)> 1423726489 -0500	pull --progress --prune origin master: fast-forward
+f3bbb04fc5a4c07f09c2ec7eabbbe18638c7549c c51e2d483fb200a86774fee20ab13c168a64cb1f unknown <Nathan@Nathan.(none)> 1423726674 -0500	pull --progress --prune origin master: fast-forward
+c51e2d483fb200a86774fee20ab13c168a64cb1f e64eea4a99b85db1919f9bd34076300a0f017755 unknown <Nathan@Nathan.(none)> 1423726786 -0500	fetch origin --prune: fast-forward
+e64eea4a99b85db1919f9bd34076300a0f017755 d895dad3c2ac00f8cc2afaa0464c6d76d532a4e9 unknown <Nathan@Nathan.(none)> 1423726891 -0500	pull --progress --prune origin master: fast-forward
+d895dad3c2ac00f8cc2afaa0464c6d76d532a4e9 37f832461546be2196c3476a2706053d44ceebca unknown <Nathan@Nathan.(none)> 1423727007 -0500	fetch origin --prune: fast-forward
+37f832461546be2196c3476a2706053d44ceebca 534453811dd37f2624b2393123907790110ac08b unknown <Nathan@Nathan.(none)> 1423727128 -0500	pull --progress --prune origin master: fast-forward
+534453811dd37f2624b2393123907790110ac08b 522e0943bf87db5cd84cafc5586c358c4cca02af unknown <Nathan@Nathan.(none)> 1423727236 -0500	pull --progress --prune origin master: fast-forward
+522e0943bf87db5cd84cafc5586c358c4cca02af 333d6e4adc24d906fb98585666501157a222d89c unknown <Nathan@Nathan.(none)> 1423727341 -0500	pull --progress --prune origin master: fast-forward
+333d6e4adc24d906fb98585666501157a222d89c 260e73b3c30db6f8d33afa3417d9202670ca3837 unknown <Nathan@Nathan.(none)> 1423727426 -0500	fetch origin --prune: fast-forward
+260e73b3c30db6f8d33afa3417d9202670ca3837 8bdf4a147eb2c22baae83fdef7a891ba41104e1b unknown <Nathan@Nathan.(none)> 1423727481 -0500	pull --progress --prune origin master: fast-forward
+8bdf4a147eb2c22baae83fdef7a891ba41104e1b 378a9f350d77b5751c48f0a409d8db4180bf1ab0 unknown <Nathan@Nathan.(none)> 1423727562 -0500	pull --progress --prune origin master: fast-forward
+378a9f350d77b5751c48f0a409d8db4180bf1ab0 251f7a5b95412b15b232d2081dcf48a9b2b6bbfc unknown <Nathan@Nathan.(none)> 1423727682 -0500	fetch origin --prune: fast-forward
+251f7a5b95412b15b232d2081dcf48a9b2b6bbfc 2b8233788e5122009a239d283e7c77afc11c76c2 unknown <Nathan@Nathan.(none)> 1423727770 -0500	pull --progress --prune origin master: fast-forward
+2b8233788e5122009a239d283e7c77afc11c76c2 b6631fcd06739f49f632fff6e3cfef7a8840b40c unknown <Nathan@Nathan.(none)> 1423727957 -0500	fetch origin --prune: fast-forward
+b6631fcd06739f49f632fff6e3cfef7a8840b40c 5462673080cc51f56da5f271af666c8a25001c95 unknown <Nathan@Nathan.(none)> 1423728354 -0500	pull --progress --prune origin master: fast-forward
+5462673080cc51f56da5f271af666c8a25001c95 19e1689e992e45254999d909b1561ac66315ca5a unknown <Nathan@Nathan.(none)> 1423728440 -0500	pull --progress --prune origin master: fast-forward
+19e1689e992e45254999d909b1561ac66315ca5a 1cf4e898152e9e7582611d6954b111c16ab911ed unknown <Nathan@Nathan.(none)> 1423728613 -0500	pull --progress --prune origin master: fast-forward
+1cf4e898152e9e7582611d6954b111c16ab911ed f3ae274bd85605650b7a98bdc1492626b98488a7 unknown <Nathan@Nathan.(none)> 1423728704 -0500	fetch origin --prune: fast-forward
+f3ae274bd85605650b7a98bdc1492626b98488a7 5b586e653eb77973883c1351d25f2ea932841faa unknown <Nathan@Nathan.(none)> 1423728813 -0500	pull --progress --prune origin master: fast-forward
+5b586e653eb77973883c1351d25f2ea932841faa 80e07dcbd8e60d67bc08a8b4b85292f469d37e47 unknown <Nathan@Nathan.(none)> 1423728956 -0500	pull --progress --prune origin master: fast-forward
+80e07dcbd8e60d67bc08a8b4b85292f469d37e47 62bc88cbb3d642652e5bfd68e77dd33fe99ca10c unknown <Nathan@Nathan.(none)> 1423729174 -0500	fetch origin --prune: fast-forward
+62bc88cbb3d642652e5bfd68e77dd33fe99ca10c 0a876a16c52525e83af3faf7c5edb61ba11191ea unknown <Nathan@Nathan.(none)> 1423729479 -0500	fetch origin --prune: fast-forward
+0a876a16c52525e83af3faf7c5edb61ba11191ea 9174e3d03c1f40b7e4b2438ead41317167e5cfb1 narcher2 <narcher2@gmu.edu> 1423729611 -0500	update by push
+9174e3d03c1f40b7e4b2438ead41317167e5cfb1 bc2c3a8750baccdc6ec06729cd9b38adc039c7ad unknown <Nathan@Nathan.(none)> 1423729700 -0500	fetch origin --prune: fast-forward
+bc2c3a8750baccdc6ec06729cd9b38adc039c7ad 2f1969349ba1b1ad4460e4c4d03baeabdd8ab7ce unknown <Nathan@Nathan.(none)> 1423729787 -0500	pull --progress --prune origin master: fast-forward
+2f1969349ba1b1ad4460e4c4d03baeabdd8ab7ce 406dd905da029b4cad1b2625d116305980d93daa unknown <Nathan@Nathan.(none)> 1423729861 -0500	pull --progress --prune origin master: fast-forward
+406dd905da029b4cad1b2625d116305980d93daa c09769ce1f0562f46d106ced619a6cc7d38e7232 unknown <Nathan@Nathan.(none)> 1423730084 -0500	pull --progress --prune origin master: fast-forward
+c09769ce1f0562f46d106ced619a6cc7d38e7232 a585ec17047f4b336d6697c441962042b703ddc3 unknown <Nathan@Nathan.(none)> 1423730136 -0500	fetch origin --prune: fast-forward
+a585ec17047f4b336d6697c441962042b703ddc3 d4471f050be3af9191b0d58f2e1594d88270e6fc unknown <Nathan@Nathan.(none)> 1423730225 -0500	pull --progress --prune origin master: fast-forward
+d4471f050be3af9191b0d58f2e1594d88270e6fc e4dc66ec8022bf9cb3cf8ad70ae8364ff0a2c84d unknown <Nathan@Nathan.(none)> 1423730381 -0500	fetch origin --prune: fast-forward
+e4dc66ec8022bf9cb3cf8ad70ae8364ff0a2c84d 3f6227bfbf9e6e1fe34d3f8491ac7e51600ab4e8 unknown <Nathan@Nathan.(none)> 1423730449 -0500	pull --progress --prune origin master: fast-forward
+3f6227bfbf9e6e1fe34d3f8491ac7e51600ab4e8 70e5959395a276abfc0d0fa5a811c978fe2d6589 unknown <Nathan@Nathan.(none)> 1423730553 -0500	pull --progress --prune origin master: fast-forward
+70e5959395a276abfc0d0fa5a811c978fe2d6589 5fb3dbbe9f0b8dfef44271a8ea8cec7c1955a954 unknown <Nathan@Nathan.(none)> 1423730610 -0500	pull --progress --prune origin master: fast-forward
+5fb3dbbe9f0b8dfef44271a8ea8cec7c1955a954 de00c17572279a28bf20d8819738c12e923c19bd unknown <Nathan@Nathan.(none)> 1423730701 -0500	pull --progress --prune origin master: fast-forward
+de00c17572279a28bf20d8819738c12e923c19bd cd6baf0bd2eb9302baf6066d22047abe34a98e1c unknown <Nathan@Nathan.(none)> 1423730924 -0500	fetch origin --prune: fast-forward
+cd6baf0bd2eb9302baf6066d22047abe34a98e1c 868b005c38ebe7d6da9439cf55ce9844a017b7b9 unknown <Nathan@Nathan.(none)> 1423731102 -0500	pull --progress --prune origin master: fast-forward
+868b005c38ebe7d6da9439cf55ce9844a017b7b9 45f4c65922d9f0a5ef86c859ca03161900e5901e unknown <Nathan@Nathan.(none)> 1423731434 -0500	fetch origin --prune: fast-forward
+45f4c65922d9f0a5ef86c859ca03161900e5901e 174007e5e65d5f1f466e421eacd877f2e67e6f8d unknown <Nathan@Nathan.(none)> 1423731588 -0500	pull --progress --prune origin master: fast-forward
+174007e5e65d5f1f466e421eacd877f2e67e6f8d 666fcefff16f267ec2888401c7fc067e3c13ee39 unknown <Nathan@Nathan.(none)> 1423731657 -0500	fetch origin --prune: fast-forward
+666fcefff16f267ec2888401c7fc067e3c13ee39 548eb1a72f1637f7195cfdb155f01e0f0136df21 unknown <Nathan@Nathan.(none)> 1423731732 -0500	pull --progress --prune origin master: fast-forward
+548eb1a72f1637f7195cfdb155f01e0f0136df21 10a0952eaf29c06a996dd34264233680fece00e5 unknown <Nathan@Nathan.(none)> 1423731931 -0500	fetch origin --prune: fast-forward
+10a0952eaf29c06a996dd34264233680fece00e5 938abd808c9b69878a0680f67eeb341e84ead4c8 unknown <Nathan@Nathan.(none)> 1423732066 -0500	pull --progress --prune origin master: fast-forward
+938abd808c9b69878a0680f67eeb341e84ead4c8 b35b40f3f25d4afceded343652236334e468551b unknown <Nathan@Nathan.(none)> 1423732125 -0500	fetch origin --prune: fast-forward
+b35b40f3f25d4afceded343652236334e468551b 74908005bc66a26c83a503f57f35b190a4014d91 unknown <Nathan@Nathan.(none)> 1423732340 -0500	pull --progress --prune origin master: fast-forward
+74908005bc66a26c83a503f57f35b190a4014d91 9d0d7c0b721da9b7091c1c6283f88c469754d52c unknown <Nathan@Nathan.(none)> 1423733082 -0500	pull --progress --prune origin master: fast-forward
+9d0d7c0b721da9b7091c1c6283f88c469754d52c 2b419e249c168665795124ff9766e13111278251 unknown <Nathan@Nathan.(none)> 1423733248 -0500	pull --progress --prune origin master: fast-forward
+2b419e249c168665795124ff9766e13111278251 1d52a01a5b3dfeb0a35a692df959b865369d29be unknown <Nathan@Nathan.(none)> 1423733381 -0500	fetch origin --prune: fast-forward
+1d52a01a5b3dfeb0a35a692df959b865369d29be cc6a492f34b1c3b2e523ffdf33b25912c0d7e876 unknown <Nathan@Nathan.(none)> 1423733636 -0500	fetch origin --prune: fast-forward
+cc6a492f34b1c3b2e523ffdf33b25912c0d7e876 bb1a5697d906ecd09104beec2ebd1d71fef9beef unknown <Nathan@Nathan.(none)> 1423733821 -0500	fetch origin --prune: fast-forward
+bb1a5697d906ecd09104beec2ebd1d71fef9beef cb5858bed5f54160db8dcc6f9502e66dc01969c9 unknown <Nathan@Nathan.(none)> 1423766498 -0500	fetch origin --prune: fast-forward
+cb5858bed5f54160db8dcc6f9502e66dc01969c9 2aa5a4b55098cd9cdfee33b03e4ab35aab93baea unknown <Nathan@Nathan.(none)> 1423767071 -0500	fetch origin --prune: fast-forward
+2aa5a4b55098cd9cdfee33b03e4ab35aab93baea e3b795ab53fcd4726b4167876396f79a36201f88 unknown <Nathan@Nathan.(none)> 1423767391 -0500	pull --progress --prune origin master: fast-forward
+e3b795ab53fcd4726b4167876396f79a36201f88 1e08dd77e78b3cbb5b3617b801b9d460e11c5ffb unknown <Nathan@Nathan.(none)> 1423767899 -0500	fetch origin --prune: fast-forward
+1e08dd77e78b3cbb5b3617b801b9d460e11c5ffb 4e2d3a361165bc432d893aeb678fe9407ebc1dc3 unknown <Nathan@Nathan.(none)> 1423767975 -0500	pull --progress --prune origin master: fast-forward
+4e2d3a361165bc432d893aeb678fe9407ebc1dc3 81b2d6e27765c0e4fdd7a6d16ed34f00eee9b8e3 unknown <Nathan@Nathan.(none)> 1423768373 -0500	pull --progress --rebase --prune origin master: fast-forward
+81b2d6e27765c0e4fdd7a6d16ed34f00eee9b8e3 a19f7f3dca324107a6e729805a0cc4fb810fac3e unknown <Nathan@Nathan.(none)> 1423768675 -0500	fetch origin --prune: fast-forward
+a19f7f3dca324107a6e729805a0cc4fb810fac3e 3394a13aac2e570e984258c6cbbcf5e4357c4dc5 unknown <Nathan@Nathan.(none)> 1423769161 -0500	fetch origin --prune: fast-forward
+3394a13aac2e570e984258c6cbbcf5e4357c4dc5 42150a56efe490828e476be5f1ccc9071b7b397c unknown <Nathan@Nathan.(none)> 1423769258 -0500	pull --progress --rebase --prune origin master: fast-forward
+42150a56efe490828e476be5f1ccc9071b7b397c fee540516cb9d20512f78ccd940c06a3b11e4619 unknown <Nathan@Nathan.(none)> 1423769372 -0500	fetch origin --prune: fast-forward
